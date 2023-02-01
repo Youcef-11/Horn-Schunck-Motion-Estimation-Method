@@ -1,4 +1,7 @@
-#include "myBmpGris.h"
+/*Youcef CHORFI*/
+/*Sorbonne University*/
+
+#include "../headers/myBmpGris.h"
 
 // Constructeur et Destructeur
 /** Methode de creation d'une image Bmp "standard" (pas de LUT, pas d'alpha, codage sur 24 bits)

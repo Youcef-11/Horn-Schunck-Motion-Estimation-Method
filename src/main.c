@@ -1,8 +1,11 @@
+/*Youcef CHORFI*/
+/*Sorbonne University*/
+
 #include "myBmpGris.c"
 #include<math.h>
 #include<time.h>
-#define IMAGE1 "img/1carre_rond.bmp"    
-#define IMAGE2 "img/2carre_rond.bmp"
+#define IMAGE1 "../imgs/frame1.bmp"    
+#define IMAGE2 "../imgs/frame2.bmp"
 
 
 /* CREER UNE STRUCTURE DE MATRICE QUI CONTIENT */
@@ -223,7 +226,7 @@ int main(){
 
   unsigned int i,j;
    int dimx = img1.dimX, dimy = img1.dimY,k=0;
-   double alpha =1, eps = 0.000001;
+   double alpha =1, eps = 1e-2;
    
    BmpImg py[3];
    Pyramida(py,&img1);
@@ -309,7 +312,7 @@ int main(){
        }
     }
     k++;
-    printf("%d %lf\n",k,norm(dv));
+    printf("%d : norm(dv) = %lf\r",k,norm(dv));
    }while(norm(dv) > eps );
   
     // Methode de Multi-resolution 

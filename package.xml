@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>HornSchunk</name>
+  <version>0.0.1</version>
+  <description>This is a sample workspace for HornSchunk</description>
+
+  <maintainer email="youcef.chorfi92@gmail.com">Youcef CHORFI</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake</build_depend>
+  <build_depend>make</build_depend>
+
+  <run_depend>libc6</run_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>

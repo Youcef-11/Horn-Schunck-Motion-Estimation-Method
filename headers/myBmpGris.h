@@ -1,3 +1,5 @@
+/*Youcef CHORFI*/
+/*Sorbonne University*/
 #ifndef _myBmpGris_h_
 #define _myBmpGris_h_
 
