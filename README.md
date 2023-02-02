@@ -10,4 +10,24 @@ Ability to adjust the smoothness weight in the cost function
 Ability to adjust the number of iterations in the optimization process
 To use this implementation, simply call the hs_motion_estimation function with the input frames and desired parameters as inputs. The function will return the estimated optical flow as a two-dimensional array of vectors.
 
+## Authors : 
+- Youcef CHORFI
+- Nacereddine LADDAOUI
+
+## Dependencies
+* [CMake](https://cmake.org/)
+
+## Install
+```
+git clone https://github.com/Youcef-11/Horn-Schunck-Motion-Estimation-Method.git
+mkdir build
+cd build
+cmake ..
+make
+./HornSchunk
+```
+
+## Results
+<p align="center"><a href=https://github.com/Youcef-11/Horn-Schunck-Motion-Estimation-Method/blob/master/results/optical_flow.png?raw=true><img width="100%" src="./results/optical_flow.png" /></a></p>
+
 Note that this implementation is provided for educational purposes and is not optimized for speed or memory usage. If you plan to use this method for real-time applications or large-scale video processing, you may need to consider alternative methods or optimize the code further.
