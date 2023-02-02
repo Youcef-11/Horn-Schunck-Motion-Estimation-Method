@@ -20,6 +20,7 @@ To use this implementation, simply call the hs_motion_estimation function with t
 ## Install
 ```
 git clone https://github.com/Youcef-11/Horn-Schunck-Motion-Estimation-Method.git
+cd Horn-Schunck-Motion-Estimation-Method
 mkdir build
 cd build
 cmake ..
